@@ -1,24 +1,66 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<div align="center">
 
-Things you may want to cover:
+ # Blog
+  
+</div>
 
-* Ruby version
+Foi construída uma solução de projeto para um Blog com recursos interativos e funcionalidade principal de criação de artigos e inserir/atualizar/deletar comentários. Na criação, foi utilizado [esse Tutorial](https://guides.rubyonrails.org/getting_started.html).
 
-* System dependencies
+<br>
 
-* Configuration
+## Tecnologias Utilizadas
+---
 
-* Database creation
+- [RubyOnRails](https://guides.rubyonrails.org/index.html)
 
-* Database initialization
+<br>
 
-* How to run the test suite
+## Características
+---
+- `Visualização de Artigos`: O usuário vê os artigos existentes.
 
-* Services (job queues, cache servers, search engines, etc.)
+- `Criação de Artigos`: É possível criar artigos.
 
-* Deployment instructions
+- `Atualização de Artigos`: É possível atualizar os artigos criados.
 
-* ...
+- `Deletar Artigos`: É possível deletar artigos existentes.
+
+- `Visualização de comentário`: O usuário vê os comentários existentes no em cada artigo.
+
+- `Criação de Comentários`: É possível criar Comentários em cada artigo.
+
+- `Deletar Comentários`: É possível deletar os comentários existentes nos artigos.
+
+<br>
+
+## Como começar
+---
+
+
+### Instalação
+
+1. Antes de instalar o Rails, você deve verificar se seu sistema possui os pré-requisitos instalados adequadamente. Esses incluem: [Rubi](https://www.ruby-lang.org/en/documentation/installation/) e [SQLite3](https://www.sqlite.org/index.html).
+
+2. Para instalar o Rails, use o **gem install** comando fornecido pelo RubyGems:
+
+```bash
+  gem install rails
+```
+
+<br>
+
+### Para executar o projeto localmente:
+
+1. **Clone** este repositório: `git clone git@github.com:edmcorrea/blog-in-ruby-on-rails.git`
+2. **Navegue até o diretório** do projeto backend: `cd blog-in-ruby-on-rails`
+3. **Inicie a aplicação** usando `bin/rails server` 
+
+<br>
+
+## External Documentation
+
+- [Rubi](https://www.ruby-lang.org/en/documentation/installation/)
+- [SQLite3](https://www.sqlite.org/index.html)
+- [RubyOnRails](https://guides.rubyonrails.org/index.html)
+- [Tutorial Blog](https://guides.rubyonrails.org/getting_started.html)
